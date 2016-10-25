@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="uploadDiv"
+      ng-controller="fileUploadController">
+    <input type="file" name="file" title=" " id="file" ng-disabled="disabled">
+    <button type="submit" class="btn btn-primary btn-xs m-r-20" ng-click="uploadFileInBlocks()">Upload</button>
+</div>
